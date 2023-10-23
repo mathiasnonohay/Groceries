@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C77F03942AE6BDB2001CA45C /* GroceriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03932AE6BDB2001CA45C /* GroceriesApp.swift */; };
-		C77F03962AE6BDB2001CA45C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03952AE6BDB2001CA45C /* ContentView.swift */; };
 		C77F03982AE6BDB4001CA45C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77F03972AE6BDB4001CA45C /* Assets.xcassets */; };
 		C77F039B2AE6BDB4001CA45C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77F039A2AE6BDB4001CA45C /* Preview Assets.xcassets */; };
 		C77F03A52AE6BDB5001CA45C /* GroceriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03A42AE6BDB5001CA45C /* GroceriesTests.swift */; };
 		C77F03AF2AE6BDB5001CA45C /* GroceriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03AE2AE6BDB5001CA45C /* GroceriesUITests.swift */; };
 		C77F03B12AE6BDB5001CA45C /* GroceriesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03B02AE6BDB5001CA45C /* GroceriesUITestsLaunchTests.swift */; };
+		C77F03C22AE6C13D001CA45C /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C77F03BE2AE6C13D001CA45C /* Gilroy-SemiBold.ttf */; };
+		C77F03C32AE6C13D001CA45C /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C77F03BF2AE6C13D001CA45C /* Gilroy-Regular.ttf */; };
+		C77F03C42AE6C13D001CA45C /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C77F03C02AE6C13D001CA45C /* Gilroy-Medium.ttf */; };
+		C77F03C52AE6C13D001CA45C /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C77F03C12AE6C13D001CA45C /* Gilroy-Bold.ttf */; };
+		C77F03CE2AE6C322001CA45C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03CD2AE6C322001CA45C /* WelcomeView.swift */; };
+		C77F03D02AE6C370001CA45C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77F03CF2AE6C370001CA45C /* Launch Screen.storyboard */; };
+		C77F03D22AE6C5B6001CA45C /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03D12AE6C5B6001CA45C /* UIExtension.swift */; };
+		C77F03D42AE6CCB4001CA45C /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03D32AE6CCB4001CA45C /* RoundButton.swift */; };
+		C77F03D62AE6CDFC001CA45C /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03D52AE6CDFC001CA45C /* SigninView.swift */; };
+		C77F03D92AE6D572001CA45C /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = C77F03D82AE6D572001CA45C /* CountryPicker */; };
+		C77F03DB2AE6D5A0001CA45C /* CountryPickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03DA2AE6D5A0001CA45C /* CountryPickerUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		C77F03902AE6BDB2001CA45C /* Groceries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groceries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77F03932AE6BDB2001CA45C /* GroceriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesApp.swift; sourceTree = "<group>"; };
-		C77F03952AE6BDB2001CA45C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C77F03972AE6BDB4001CA45C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C77F039A2AE6BDB4001CA45C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C77F03A02AE6BDB5001CA45C /* GroceriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,17 @@
 		C77F03AA2AE6BDB5001CA45C /* GroceriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77F03AE2AE6BDB5001CA45C /* GroceriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesUITests.swift; sourceTree = "<group>"; };
 		C77F03B02AE6BDB5001CA45C /* GroceriesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C77F03BE2AE6C13D001CA45C /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		C77F03BF2AE6C13D001CA45C /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		C77F03C02AE6C13D001CA45C /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		C77F03C12AE6C13D001CA45C /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		C77F03C62AE6C20D001CA45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C77F03CD2AE6C322001CA45C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C77F03CF2AE6C370001CA45C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C77F03D12AE6C5B6001CA45C /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		C77F03D32AE6CCB4001CA45C /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		C77F03D52AE6CDFC001CA45C /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		C77F03DA2AE6D5A0001CA45C /* CountryPickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77F03D92AE6D572001CA45C /* CountryPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +115,16 @@
 		C77F03922AE6BDB2001CA45C /* Groceries */ = {
 			isa = PBXGroup;
 			children = (
+				C77F03CA2AE6C2E1001CA45C /* UICommon */,
+				C77F03C92AE6C2C2001CA45C /* ViewModel */,
+				C77F03C62AE6C20D001CA45C /* Info.plist */,
+				C77F03C82AE6C2B6001CA45C /* Model */,
+				C77F03C72AE6C2AF001CA45C /* View */,
+				C77F03BD2AE6C07F001CA45C /* Font */,
 				C77F03932AE6BDB2001CA45C /* GroceriesApp.swift */,
-				C77F03952AE6BDB2001CA45C /* ContentView.swift */,
 				C77F03972AE6BDB4001CA45C /* Assets.xcassets */,
 				C77F03992AE6BDB4001CA45C /* Preview Content */,
+				C77F03CF2AE6C370001CA45C /* Launch Screen.storyboard */,
 			);
 			path = Groceries;
 			sourceTree = "<group>";
@@ -127,6 +154,58 @@
 			path = GroceriesUITests;
 			sourceTree = "<group>";
 		};
+		C77F03BD2AE6C07F001CA45C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C77F03C12AE6C13D001CA45C /* Gilroy-Bold.ttf */,
+				C77F03C02AE6C13D001CA45C /* Gilroy-Medium.ttf */,
+				C77F03BF2AE6C13D001CA45C /* Gilroy-Regular.ttf */,
+				C77F03BE2AE6C13D001CA45C /* Gilroy-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		C77F03C72AE6C2AF001CA45C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C77F03CC2AE6C312001CA45C /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C77F03C82AE6C2B6001CA45C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C77F03C92AE6C2C2001CA45C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C77F03CA2AE6C2E1001CA45C /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				C77F03D12AE6C5B6001CA45C /* UIExtension.swift */,
+				C77F03D32AE6CCB4001CA45C /* RoundButton.swift */,
+				C77F03DA2AE6D5A0001CA45C /* CountryPickerUI.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		C77F03CC2AE6C312001CA45C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C77F03CD2AE6C322001CA45C /* WelcomeView.swift */,
+				C77F03D52AE6CDFC001CA45C /* SigninView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +222,9 @@
 			dependencies = (
 			);
 			name = Groceries;
+			packageProductDependencies = (
+				C77F03D82AE6D572001CA45C /* CountryPicker */,
+			);
 			productName = Groceries;
 			productReference = C77F03902AE6BDB2001CA45C /* Groceries.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +297,9 @@
 				Base,
 			);
 			mainGroup = C77F03872AE6BDB2001CA45C;
+			packageReferences = (
+				C77F03D72AE6D572001CA45C /* XCRemoteSwiftPackageReference "CountryPicker" */,
+			);
 			productRefGroup = C77F03912AE6BDB2001CA45C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,7 +317,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C77F039B2AE6BDB4001CA45C /* Preview Assets.xcassets in Resources */,
+				C77F03C22AE6C13D001CA45C /* Gilroy-SemiBold.ttf in Resources */,
+				C77F03C42AE6C13D001CA45C /* Gilroy-Medium.ttf in Resources */,
+				C77F03C52AE6C13D001CA45C /* Gilroy-Bold.ttf in Resources */,
 				C77F03982AE6BDB4001CA45C /* Assets.xcassets in Resources */,
+				C77F03C32AE6C13D001CA45C /* Gilroy-Regular.ttf in Resources */,
+				C77F03D02AE6C370001CA45C /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +347,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77F03962AE6BDB2001CA45C /* ContentView.swift in Sources */,
+				C77F03DB2AE6D5A0001CA45C /* CountryPickerUI.swift in Sources */,
+				C77F03D42AE6CCB4001CA45C /* RoundButton.swift in Sources */,
 				C77F03942AE6BDB2001CA45C /* GroceriesApp.swift in Sources */,
+				C77F03D62AE6CDFC001CA45C /* SigninView.swift in Sources */,
+				C77F03D22AE6C5B6001CA45C /* UIExtension.swift in Sources */,
+				C77F03CE2AE6C322001CA45C /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +518,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Groceries/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Groceries/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,9 +534,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mathias.Groceries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,11 +553,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Groceries/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Groceries/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,9 +569,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mathias.Groceries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -582,6 +690,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C77F03D72AE6D572001CA45C /* XCRemoteSwiftPackageReference "CountryPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mobven/CountryPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C77F03D82AE6D572001CA45C /* CountryPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C77F03D72AE6D572001CA45C /* XCRemoteSwiftPackageReference "CountryPicker" */;
+			productName = CountryPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C77F03882AE6BDB2001CA45C /* Project object */;
 }
