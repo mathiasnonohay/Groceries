@@ -24,6 +24,10 @@
 		C77F03D62AE6CDFC001CA45C /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03D52AE6CDFC001CA45C /* SigninView.swift */; };
 		C77F03D92AE6D572001CA45C /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = C77F03D82AE6D572001CA45C /* CountryPicker */; };
 		C77F03DB2AE6D5A0001CA45C /* CountryPickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03DA2AE6D5A0001CA45C /* CountryPickerUI.swift */; };
+		C77F03DD2AE6DC25001CA45C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03DC2AE6DC25001CA45C /* LoginView.swift */; };
+		C77F03DF2AE6E0F2001CA45C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03DE2AE6E0F2001CA45C /* MainViewModel.swift */; };
+		C77F03E12AE6E233001CA45C /* LineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03E02AE6E233001CA45C /* LineTextField.swift */; };
+		C77F03E32AE6EC59001CA45C /* ServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03E22AE6EC59001CA45C /* ServiceCall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +68,10 @@
 		C77F03D32AE6CCB4001CA45C /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		C77F03D52AE6CDFC001CA45C /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
 		C77F03DA2AE6D5A0001CA45C /* CountryPickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerUI.swift; sourceTree = "<group>"; };
+		C77F03DC2AE6DC25001CA45C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C77F03DE2AE6E0F2001CA45C /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		C77F03E02AE6E233001CA45C /* LineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTextField.swift; sourceTree = "<group>"; };
+		C77F03E22AE6EC59001CA45C /* ServiceCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +191,7 @@
 		C77F03C92AE6C2C2001CA45C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				C77F03DE2AE6E0F2001CA45C /* MainViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -193,6 +202,8 @@
 				C77F03D12AE6C5B6001CA45C /* UIExtension.swift */,
 				C77F03D32AE6CCB4001CA45C /* RoundButton.swift */,
 				C77F03DA2AE6D5A0001CA45C /* CountryPickerUI.swift */,
+				C77F03E02AE6E233001CA45C /* LineTextField.swift */,
+				C77F03E22AE6EC59001CA45C /* ServiceCall.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -202,6 +213,7 @@
 			children = (
 				C77F03CD2AE6C322001CA45C /* WelcomeView.swift */,
 				C77F03D52AE6CDFC001CA45C /* SigninView.swift */,
+				C77F03DC2AE6DC25001CA45C /* LoginView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -348,11 +360,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C77F03DB2AE6D5A0001CA45C /* CountryPickerUI.swift in Sources */,
+				C77F03E12AE6E233001CA45C /* LineTextField.swift in Sources */,
+				C77F03DD2AE6DC25001CA45C /* LoginView.swift in Sources */,
 				C77F03D42AE6CCB4001CA45C /* RoundButton.swift in Sources */,
 				C77F03942AE6BDB2001CA45C /* GroceriesApp.swift in Sources */,
 				C77F03D62AE6CDFC001CA45C /* SigninView.swift in Sources */,
 				C77F03D22AE6C5B6001CA45C /* UIExtension.swift in Sources */,
+				C77F03E32AE6EC59001CA45C /* ServiceCall.swift in Sources */,
 				C77F03CE2AE6C322001CA45C /* WelcomeView.swift in Sources */,
+				C77F03DF2AE6E0F2001CA45C /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
